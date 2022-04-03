@@ -8,7 +8,7 @@ import os
 import shutil
 
 def aavso_data_download(objName,datapath,startdate='All',stopdate='All',whoami = 'Student',whythedata='Data Analysis'):
-    path = 'E:\\temporary_aavso_data_storage'
+    path = 'temporary_aavso_data_storage'
     op = webdriver.ChromeOptions()
     p = {'download.default_directory': path}
     op.add_argument('--headless')
